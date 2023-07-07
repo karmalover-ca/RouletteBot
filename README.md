@@ -44,16 +44,26 @@ Please ensure your code adheres to the existing coding style, and include approp
 To set up Roulette Bot locally, follow these steps:
 
 1. Clone the repository:
-  `git clone https://github.com/karmalover-ca/RouletteBot`
+  ```
+  git clone https://github.com/karmalover-ca/RouletteBot
+  ```
 2. Install the dependencies using yarn:
-  `yarn`
+  ```
+  yarn
+  ```
 3. Change example.start.sh to start.sh:
-  `cp example.start.sh start.sh`
+  ```
+  cp example.start.sh start.sh
+  ```
 4. Edit the token and ID
 5. Make start.sh executable:
-  `chmod +x start.sh`
+  ``` 
+  chmod +x start.sh
+  ```
 6. Start the bot:
-  `./start.sh`
+  ```
+   ./start.sh
+  ```
 
 ## License
 
