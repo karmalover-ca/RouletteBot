@@ -56,6 +56,6 @@ We would like to express our gratitude to the following resources that helped in
 If you have any questions, suggestions, or issues, please feel free to reach out to us:
 
 - WaterMeloDev - [GitHub](https://github.com/watermelodev)
-- Karmalover - [GitHub](https://github.com/karmalover-ca)
+- KarmaLover - [GitHub](https://github.com/karmalover-ca)
 
 We appreciate your interest in Roulette Bot and hope you enjoy using it!
