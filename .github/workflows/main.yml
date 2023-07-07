@@ -9,19 +9,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    strategy:
+        matrix:
+          node-version: [ 20.x ]
 
-strategy:
-  matrix:
-    node-version: [ 20.x ]
-
-steps:
-  - uses: actions/checkout@v2
-  - name: Node.js
-    uses: actions/setup-node@v1
-    with:
-      node-version: ${{ matrix.node-version }}
-  - run: npm install -g yarn
-  - name: yarn install and build
-    run: |
-      yarn
-      yarn build
+    steps:
+      - uses: actions/checkout@v2
+      - name: Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install -g yarn
+      - name: yarn install and build
+        run: |
+          yarn
+          yarn build
