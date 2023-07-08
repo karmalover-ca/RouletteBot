@@ -16,7 +16,7 @@ Welcome to Roulette Bot! This Discord bot is designed to offer an exciting colle
 
 ## Usage
 
-To use Roulette Bot in your Discord server, make sure the bot is online and has proper permissions. The bot's default prefix is `!roulette`, but you can change it as per your preference.
+To use Roulette Bot in your Discord server, make sure the bot is online and has proper permissions. The bot's default prefix is `/roulette`, but you can change it as per your preference.
 
 Useful commands:
 
